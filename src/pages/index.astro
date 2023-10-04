@@ -1,26 +1,19 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Header from "../components/Header.astro";
+import Search from "../components/Search.svelte";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Eva">
   <main>
-    <span class="text-center text-2xl font-bold mt-10 mb-4">
-      Welcome to the starter!
-    </span>
-    <Header />
-    <div
-      class="w-full items-center justify-center text-center flex flex-col mt-4 mb-10"
-      transition:animate="fade"
-    >
-      This app has two pages which you can navigate between. Click the button
-      below to go to another page.
-    </div>
-    <a
-      href="/other"
-      class="bg-neutral-800 px-4 py-2 text-sm rounded-lg hover:bg-neutral-700"
-    >
-      Let's go 🚀
+    <a class="absolute top-4 left-4" href="/settings">
+      <img src="/cog.svg" alt="settings" width="24" height="24" />
     </a>
+    <h1>Welcome to Eva!</h1>
+    <div
+      class="w-full items-center justify-center text-sm text-center flex flex-col"
+    >
+      This is a utility to help you search for files in your folders.
+    </div>
+    <Search client:load/>
   </main>
 </Layout>

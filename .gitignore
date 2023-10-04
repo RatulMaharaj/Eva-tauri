@@ -1,3 +1,6 @@
+# databases
+*.db
+
 # build output
 dist/
 

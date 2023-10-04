@@ -5,10 +5,10 @@
 To get started, run:
 
 ```sh
-git clone https://github.com/RatulMaharaj/astro-tauri-tailwind.git
+git clone https://github.com/RatulMaharaj/eva.git
 ```
 
-or click the green [Use this template](https://github.com/new?template_name=astro-tauri-tailwind&template_owner=RatulMaharaj) button above.
+or click the green [Use this template](https://github.com/new?template_name=eva&template_owner=RatulMaharaj) button above.
 
 ## 🚀 Project Structure
 

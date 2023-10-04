@@ -1,0 +1,17 @@
+---
+import Layout from "../layouts/Layout.astro";
+import FolderList from "../components/FolderList.svelte";
+---
+
+<Layout title="About">
+  <main>
+    <a class="absolute top-4 left-4" href="/">
+      <img src="/home.svg" alt="settings" width="24" height="24" />
+    </a>
+    <h1>Settings</h1>
+    <div class="w-full items-center justify-center text-center flex flex-col">
+      Here you can manage the folders you want to index.
+    </div>
+    <FolderList client:load/>
+  </main>
+</Layout>
